@@ -12,7 +12,7 @@ resource "aws_instance" "Demo" {
    vpc_security_group_ids = ["sg-0678c60b34ac72be4"]
    associate_public_ip_address = true
   tags = {
-    Name = "Demo-Instance"
+    Name = "Demo"
   }
 
 
