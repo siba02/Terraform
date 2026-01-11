@@ -4,9 +4,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "Demo" {
-  ami           = "ami-078f5d777b83c6485"
+  ami           = "ami-0e3addcf2a4624dfb"
   instance_type = "t3.micro"
-  key_name = "My-key"
+  key_name = "test"
 
    subnet_id              = "subnet-0f293e5bc184e7692"
    vpc_security_group_ids = ["sg-0678c60b34ac72be4"]
